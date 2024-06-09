@@ -33,7 +33,7 @@ h5,
 h6 {
   color: #333333;
 }
-h1 {
+h1, logo  {
   font-size: 38px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -555,6 +555,7 @@ textarea {
 }
 .site-name {
   font-size: 36px;
+  margin-bottom: -10px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
