@@ -115,8 +115,8 @@ blockquote {
 /* Layout
 ----------------------------------------------------------------------------- */
 .header {
-  color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  background-color: black;
   padding: 10px 0;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -148,7 +148,7 @@ blockquote {
 }
 .banner-caption {
   position: absolute;
-  top: 40%;
+  top: 30%;
   width: 100%;
   z-index: 2;
 }
@@ -170,6 +170,59 @@ blockquote {
   font-style: oblique;
 }
 
+/* Blog post section start */
+/* Blog Section Styles */
+.blog-section {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.blog-section h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #333;
+  font-weight: 700;
+}
+
+.blog-post {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-post:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.blog-image {
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.blog-post h4 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.blog-post p {
+  font-size: 16px;
+  color: #666;
+}
+
+.blog-post a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.blog-post a:hover {
+  text-decoration: underline;
+}
+/* Blog post section end */
 
 /* Backgrounds
 ----------------------------------------------------------------------------- */
