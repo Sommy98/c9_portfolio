@@ -24,6 +24,7 @@ body {
   color: #333333;
   background-color: white;
   position: relative;
+  margin-top: -100px;
 }
 h1,
 h2,
@@ -33,6 +34,13 @@ h5,
 h6 {
   color: #333333;
 }
+
+@media (max-width: 767px) {
+  .main-header {
+      margin-top: -100px;
+  }
+}
+
 h1, logo  {
   font-size: 38px;
   font-weight: 700;
@@ -131,6 +139,7 @@ blockquote {
   min-height: 100%;
   position: relative;
   color: #fff;
+  margin-top: 100px;
 }
 .banner-image {
   vertical-align: middle;
