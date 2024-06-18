@@ -139,6 +139,7 @@ blockquote {
   min-height: 100%;
   position: relative;
   color: #fff;
+  margin-top: 100px;
 }
 .banner-image {
   vertical-align: middle;
