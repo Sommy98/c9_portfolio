@@ -14,6 +14,54 @@
 
     <!-- Mobile Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* Portfolio item borders and highlights */
+
+      .image-box {
+        border: 2px solid #007bff; /* Blue border */
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s, box-shadow 0.2s;
+      }
+    
+      .image-box:hover {
+        transform: scale(1.05); /* Slightly increase size on hover */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      }
+    
+      .image-box img {
+        border-radius: 5px;
+      }
+    
+      /* Modal image styling */
+      .modal-body img {
+        border: 2px solid #007bff; /* Blue border */
+        border-radius: 5px;
+        max-width: 100%;
+        height: auto;
+      }
+    
+      /* Button styling */
+      .btn-default {
+        background-color: #007bff;
+        color: white;
+        border: none;
+      }
+    
+      .btn-default:hover {
+        background-color: #0056b3;
+        color: white;
+      }
+    
+      .btn-primary {
+        background-color: #007bff;
+        border: none;
+      }
+    
+      .btn-primary:hover {
+        background-color: #0056b3;
+      }
+    </style>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/favicon.ico" />
@@ -112,8 +160,8 @@
                     >
                       <ul class="nav navbar-nav navbar-right">
                         <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="about.html">About</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li class="active"><a href="portfolio.html">Portfolio</a></li>
                         <li><a href="contact.html">Contact</a></li>
                       </ul>
                     </div>
@@ -166,7 +214,7 @@
               <div class="col-sm-6 col-md-3 isotope-item web-design">
                 <div class="image-box">
                   <div class="overlay-container">
-                    <img src="images/contact web pic.png" alt="" />
+                    <img src="images/contact web pic.png" alt="contact form project" />
                     <a
                       class="overlay"
                       data-toggle="modal"
