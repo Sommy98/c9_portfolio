@@ -183,13 +183,12 @@ blockquote {
 /* Blog Section Styles */
 .blog-section {
   padding: 50px 0;
-  background-color: #f9f9f9;
 }
 
 .blog-section h2 {
   font-size: 36px;
   margin-bottom: 30px;
-  color: #333;
+  color: white;
   font-weight: 700;
 }
 
@@ -303,12 +302,12 @@ blockquote {
   z-index: 3;
   position: relative;
 }
-.bg-image-1 {
+/* .bg-image-1 {
   background: url("../images/bg-image-1.jpg") 50% 0px no-repeat;
 }
 .bg-image-2 {
   background: url("../images/bg-image-2.jpg") 50% 0px no-repeat;
-}
+} */
 
 /* Misc
 ----------------------------------------------------------------------------- */
